@@ -3,7 +3,7 @@ import "package:flutter/material.dart";
 import "../Models/Category.dart";
 import "../Models/Meal.dart";
  
-const List<Category> DUMMY_CATEGORIES = [
+const List<Category> DUMMY_CATEGORIES = <Category>[
     Category(
         id: "c1",
         title: "Italiano",
@@ -56,7 +56,7 @@ const List<Category> DUMMY_CATEGORIES = [
     )
 ];
 
-const DUMMY_MEALS = [
+const DUMMY_MEALS = <Meal>[
     Meal(
         id: "m1",
         categories: ["c1", "c2"],
